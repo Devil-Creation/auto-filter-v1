@@ -76,3 +76,8 @@ async def about(client, message):
         )
     except:
         pass
+
+    @Client.on_message(filters.command('sinhala_sub'))
+async def play(bot, message):
+    msg = await message.reply("🍿 **සිංහල උපසිරැසි **\n\n\n🎬 ඔන්න ඉතින් ඔයලගෙ පහසුවට අපි සිංහල උපසිරැසි බොට් කෙනෙක්වත් හදලා තියෙනවා \n\n @sub_searcheer_bot ට ᴍᴏᴠɪᴇ එකේ හෝ sᴇʀɪᴇs එකේ Name එක English වලින් type කරන එකයි \n\n\n⚡ **සිංහල උපසිරැසි; @sub_searcher_bot** \n\n\n<a href='https://t.me/sub_searcher_bot'>🤖</a> | Powered By; © <a href='https://t.me/cinehub_family'>🄲🄸🄽🄴🄷🅄🄱</a>", quote=True)
+    msg = await message.reply("😇")
